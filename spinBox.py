@@ -4,6 +4,11 @@ win = Tk()
 win.title('SpinBar')
 win.geometry("480x320")
 
+#######################
+#
+# github.com/platinumg9
+#
+#######################
 
 spin = Spinbox(win, from_=25, to = 50, width=5)
 spin.grid(column=0, row=0)
